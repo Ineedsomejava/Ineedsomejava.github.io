@@ -1,27 +1,35 @@
 <!DOCTYPE html>
 <html>
-  
-<head>
-  
-</head>
 
 <body>
-  <header>
-    <picture>
-      <source media="(min-width:650px)" srcset="images/guitar1.jpg">
-      <source media="(min-width:465px)" srcset="images/guitar1.jpg">
-      <img src="images/guitar1.jpg" alt="Guitar" style="width:auto;">
-    </picture>
-    <img src="images/guitar1.jpg" height="200px">
-    <img src="images/guitar2.jpg" height="200px">
-    
-  </header>
-  <main>
-    <p>hello</p>
-  </main>
-  <footer>
-    <p>hello</p>
-  </footer>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <h1>Dynamic Gallery</h1>
+  <p>Resize the browser window to change the images.</p>
+  <hr>
+  <h2>Guitars</h2>
+  <picture>
+  <source media="(min-width:769px)" srcset="unit3/images/guitar1.jpg">
+  <source media="(min-width:426px)" srcset="unit3/images/guitar2.jpg">
+  <source media="(min-width:321px)" srcset="unit3/images/guitar3.jpg">
+  <img src="images/plant1.jfif" alt="Guitars" height="200" width="200">
+  </picture>
+  <hr>
+  <h2>Cars</h2>
+  <picture>
+  <source media="(min-width:769px)" srcset="unit3/images/car1.jpg">
+  <source media="(min-width:426px)" srcset="unit3/images/car2.jpg">
+  <source media="(min-width:321px)" srcset="unit3/images/car3.jpg">
+  <img src="images/cat1.jpg" alt="Cars" height="200" width="200">
+  </picture>
+  <hr>
+  <h2>Knives</h2>
+  <picture>
+  <source media="(min-width:769px)" srcset="unit3/images/knives1.jpg">
+  <source media="(min-width:426px)" srcset="unit3/images/knives2.jpg">
+  <source media="(min-width:321px)" srcset="unit3/images/knives3.jpg">
+  <img src="images/tech1.jpg" alt="Knives" height="200" width="200">
+  </picture>
+  
 </body>
-
+  
 </html>
