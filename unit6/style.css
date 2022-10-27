@@ -1,0 +1,51 @@
+div#wrapper {
+  width: 60%;
+  margin: auto;
+  margin-top: 30px;  
+}
+
+main {
+  background-color: black;
+  color: #ade2c0;
+}
+
+ul {
+  list-style-image: url("/unit6/images/switch.png");
+  list-style-type: circle;
+  padding: 50px;
+  outline: outside;
+}
+
+.border-image {
+  border: 10px solid transparent;
+  border-image: url("/unit6/images/closeup-pixels-screen.png") 33 round;
+  border-image-slice: 50 200 50 200;
+  border-image-width: 20px 20px 20px 20px;
+  border-image-outset: 0px 0px 0px 0px;
+  border-image-repeat: stretch stretch;
+  padding: 15px;
+}
+
+.main-image {
+  height: 300px;
+  border: 10px solid transparent;
+  border-image: url("/unit6/images/closeup-pixels-screen.png") 33 round;
+  padding: 1px;
+}
+
+/* Copied from the web and modified */
+body {
+    background-image: url(/unit6/images/vaporwave.gif), url(/unit6/images/vaporwave.gif);
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
